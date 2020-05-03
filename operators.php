@@ -37,3 +37,66 @@ echo "<br/>";
 
 $num1 -= $num2; // $num1 = $num1 + $num2
 echo $num1;
+
+echo "<br/>";
+echo "<br/>";
+
+// Comparison Operators
+
+$var1 = 1; //int
+$var2 = 2; //int
+$var3 = 1; //int
+$var4 = "1"; //string
+$var5 = "2"; //string
+
+var_dump($var1 == $var2); //false
+echo "<br/>";
+var_dump($var1 == $var3); //true
+echo "<br/>";
+var_dump($var1 == $var4); //true
+echo "<br/>";
+var_dump($var1 === $var3); //true
+echo "<br/>";
+var_dump($var1 === $var4); //false
+echo "<br/>";
+var_dump($var1 === $var2); //false (and)
+
+echo "<br/>";
+var_dump($var1 != $var3); //false
+echo "<br/>";
+var_dump($var1 != $var2); //true
+echo "<br/>";
+var_dump($var1 != $var4); //false
+echo "<br/>";
+var_dump($var1 <> $var5); //false
+
+echo "<br/>";
+var_dump($var1 !== $var3); //false
+echo "<br/>";
+var_dump($var1 !== $var2); //false
+echo "<br/>";
+var_dump($var1 !== $var4); //true (or)
+
+echo "<br/>";
+var_dump($var2 > $var1); //true
+echo "<br/>";
+var_dump($var1 > $var3); //false
+echo "<br/>";
+var_dump($var5 > $var1); //false
+echo "<br/>";
+
+var_dump($var2 < $var1); //false
+echo "<br/>";
+var_dump($var1 < $var2); //true
+echo "<br/>";
+var_dump($var1 < $var3); //false
+
+echo "<br/>";
+var_dump($var2 >= $var1); //true
+echo "<br/>";
+var_dump($var1 >= $var3); //true
+
+echo "<br/>";
+var_dump($var1 <= $var2); //true
+echo "<br/>";
+var_dump($var1 <= $var3); //true
