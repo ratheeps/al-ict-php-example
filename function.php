@@ -1,7 +1,5 @@
 <?php
 
-// declare(strict_types=1);
-
 $str = "HELLO";
 
 $b = strtolower($str);
@@ -41,7 +39,7 @@ function sumTwoNumbers(int $num1, int $num2)
     return $num1 + $num2;
 }
 
-$x = sumTwoNumbers(2, 3);
+$x = sumTwoNumbers("A", 3);
 echo $x;
 
 $y = sumTwoNumbers(2, 10);
