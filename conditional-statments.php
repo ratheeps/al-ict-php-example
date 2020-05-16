@@ -6,6 +6,8 @@ if ($t < 20) {
     echo "Have a good day!";
 }
 
+echo "<br/>";
+
 $t = date("H");
 
 if ($t < "20") {
@@ -13,6 +15,8 @@ if ($t < "20") {
 } else {
     echo "Have a good night!";
 }
+
+echo "<br/>";
 
 $t = date("H");
 
@@ -24,10 +28,14 @@ if ($t < "10") {
     echo "Have a good night!";
 }
 
+echo "<br/>";
+
 $t = date("H");
 
 $z = $t < "20" ? "Have a good day!" : "Have a good night!";
 echo $z;
+
+echo "<br/>";
 
 $t = date("H");
 
